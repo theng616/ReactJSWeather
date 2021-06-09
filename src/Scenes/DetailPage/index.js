@@ -21,14 +21,14 @@ export default function DetailPage() {
         <CssTextField
           id="txt_celcius"
           label="Celcius"
-          defaultValue={JSON.stringify(objWeatherDetails.celcius)}
+          defaultValue={objWeatherDetails.celcius}
           InputProps={{
             readOnly: true,
           }} />
         <CssTextField
           id="txt_fanrenheit"
           label="Fahrenheit"
-          defaultValue={JSON.stringify(objWeatherDetails.fahrenheit)}
+          defaultValue={objWeatherDetails.fahrenheit}
           InputProps={{
             readOnly: true,
           }} />
